@@ -4,177 +4,106 @@ package com.xworkz.datatypes.daily;
       
      {
 		
-		public String color;
-	    public int size;
-	    public float opacity;
-	    public double hardness;
-	    public String shape;
-	    public String pattern;
-	    public float flow;
-	    public boolean smoothing;
-	    public boolean pressureSensitivity;
-	    public double angle;
-	    public int spacing;
-	    
-	    public boolean dualBrush;
-	    public boolean scattering;
-	    public double rotation;
-	    public boolean mirror;
-	    public boolean tiltSensitivity;
-	    public int dynamics;
-	    public float velocity;
-	    public boolean wetEdges;
-	    public boolean blendMode;
-	    public boolean eraserMode;
-	    
-	    public float textureMapping;
-	    public float patternScaling;
-	    public double patternRotation;
-	    public float textureOpacity;
-	    public boolean dynamicResizing;
-	    public String colorDynamics;
-	    public boolean smearTool;
-	    public boolean cloning;
-	    public boolean patternJitter;
-	    public double zoom;
-	    
-	    public boolean highlighting;
-	    public boolean shadowing;
-	    public boolean glowEffect;
-	    public boolean symmetry;
-	    public boolean customBrushes;
-	    public boolean animatedBrushes;
-	    public boolean particleBrushes;
-	    public boolean stampMode;
-	    public boolean dynamicColorBlending;
-	    public boolean layeredBrushes;
-	    public boolean dynamicLighting;
-	    
-	    public String brushRotationWithDirection;
-	    public int dynamicGradients;
-	    public boolean dynamicBlurring;
-	    public boolean watercolorSimulation;
-	    public boolean magneticBrush;
-	    public boolean dynamicColorMixing;
-	    public boolean patternSmoothing;
-	    public boolean directionalBrush;
-	    public boolean realTimePreview;
-	    public boolean autoStraightening;
-	    public boolean stitchingBrushes;
-	    
-	    public boolean patternOverlay;
-	    public boolean colorPaletteIntegration;
-	    public boolean brushShapeDistortion;
-	    public boolean jitterEffects;
-	    public boolean dynamicTapering;
-	    public boolean morphingBrushes;
-	    public boolean dynamicPerspective;
-	    public boolean automaticSmoothing;
-	    public boolean dynamicRotationWithTilt;
-	    public boolean patternDirectionControl;
-	    public boolean fractalBrushes;
-	    
-	    public boolean velocityDependentOpacity;
-	    public boolean dynamicNoise;
-	    public boolean dynamicPixelation;
-	    public boolean interactiveBrushPalette;
-	    public boolean dynamicEdgeDetection;
-	    public boolean isItSmartBrushes;
-	    public boolean dynamicZooming;
-	    public boolean animatedTextureBrushes;
-	    public boolean pressureBasedTextureIntensity;
-	    public boolean responsiveAnimationBrushes;
-	    public boolean dynamicDepthOfField;
-	    
-	    public boolean intelligentAutoCorrection;
-	    public boolean multiBrushBlending;
-		public boolean inkFlowSimulation;
-		public boolean customizableShortcuts;
-		public boolean preserveTransparency;
-		public boolean smartBrushes;
-		
-		public void displayAll() {
-			
-			System.out.println("color:" +color);
-			System.out.println("size:" +size);
-			System.out.println("opacity:" +opacity);
-			System.out.println("hardness:" +hardness);
-			System.out.println("shape:" +shape);
-			System.out.println("pattern:" +pattern);
-			System.out.println("flow:" +flow);
-			System.out.println("smoothing:" +smoothing);
-			System.out.println("pressure:" +pressureSensitivity);
-			System.out.println("angle:" +angle);
-			System.out.println("spacing:" +spacing);
-			System.out.println("dualbrush:" +dualBrush);
-			System.out.println("scattering:" +color);
-			System.out.println("rotation:" +color);
-			System.out.println("mirror:" +color);
-			System.out.println("tiltSensitivity:" +tiltSensitivity);
-			System.out.println("dynamics:" +dynamics);
-			System.out.println("velocity:" +velocity);
-			System.out.println("wetEdge:" +wetEdges);
-			System.out.println("blendMode:" +blendMode);
-			System.out.println("eraserMode:" +eraserMode);
-			System.out.println("textureMapping:" +textureMapping);
-			System.out.println("patternScaling:" +patternScaling);
-			System.out.println("patternRotation:" +patternRotation);
-			System.out.println("textureOpacity:" +textureOpacity);
-			System.out.println("dynamicResizing:" +dynamicResizing);
-			System.out.println("colorDynamics:" +colorDynamics);
-			System.out.println("smearTool:" +smearTool);
-			System.out.println("cloning:" +cloning);
-			System.out.println("patternJitter:" +patternJitter);
-			System.out.println("zoom:" +zoom);
-			System.out.println("highlighting:" +highlighting);
-			System.out.println("shadowing:" +shadowing);
-			System.out.println("glowEffect:" +glowEffect);
-			System.out.println("symmetry:" +symmetry);
-			System.out.println("customBrushes:" +customBrushes);
-			System.out.println("animatedBrushes:" +animatedBrushes);
-			System.out.println("particleBrushes:" +particleBrushes);
-			System.out.println("dynamicRotationWithTilt:" +dynamicRotationWithTilt);
-			System.out.println("patternDirectionControl:" +patternDirectionControl);
-			System.out.println("fractalBrushes:" +fractalBrushes);
-			System.out.println("velocityDependentOpacity:" +velocityDependentOpacity);
-			System.out.println("dynamicNoise:" +dynamicNoise);
-			System.out.println("dynamicPixelation:" +dynamicPixelation);
-			System.out.println("interactiveBrushPlaette:" +interactiveBrushPalette);
-			System.out.println("dynamicZooming:" +dynamicZooming);
-			System.out.println("animatedTextureBrushes:" +animatedTextureBrushes);
-			System.out.println("pressureBasedTextureIntensity:" +pressureBasedTextureIntensity);
-			System.out.println("responsiveAnimationBrushes:" +responsiveAnimationBrushes);
-			System.out.println("dynamicDepthOfField:" +dynamicDepthOfField);
-			System.out.println("intelligentautocorrection:" +intelligentAutoCorrection);
-			System.out.println("multiBrusheBlending:" +multiBrushBlending);
-			System.out.println("ink flow simulation:" +inkFlowSimulation);
-			System.out.println("customizableShortcuts:" +customizableShortcuts);
-			System.out.println("preserveTransparency:" +preserveTransparency);
-			System.out.println("stampMode:" +stampMode);
-			System.out.println("dynamicColorBlending:" +dynamicColorBlending);
-			System.out.println("layeredBrushes:" +layeredBrushes);
-			System.out.println("dynamicLighting:" +dynamicLighting);
-			System.out.println("brushRotationWithDirection:" +brushRotationWithDirection);
-			System.out.println("dynamicGradients:" +dynamicGradients);
-			System.out.println("dynamicBlurring:" +dynamicBlurring);
-			System.out.println("water color:" +watercolorSimulation);
-			System.out.println("magneticBrush:" +magneticBrush);
-			System.out.println("dynamicColorMixing:" +dynamicColorMixing);
-			System.out.println("directionalBrush:" +directionalBrush);
-			System.out.println("realTimePreview:" +realTimePreview);
-			System.out.println("autoStraightening:" +autoStraightening);
-			System.out.println("stitchingBrushes:" +stitchingBrushes);
-			System.out.println("patternOverlay:" +patternOverlay);
-			System.out.println("colorPaletteIntegration:" +colorPaletteIntegration);
-			System.out.println("brushShapeDistortion:" +brushShapeDistortion);
-			System.out.println("jitterEffects:" +jitterEffects);
-			System.out.println("dynamicTapering:" +dynamicTapering);
-			System.out.println("morphingBrushes:" + morphingBrushes);
-			System.out.println("dynamicPerspective:" +dynamicPerspective);
-			System.out.println("automaticSmoothing:" +automaticSmoothing);
-			
-			
-			
-		}
 	
-}
+			
+		    public String brandName = "Colgate";
+		    public String productName = "Toothbrush";
+		    public String bristleType = "Soft";
+		    public String handleMaterial = "Plastic";
+		    public String color = "Pink";
+		    public int price = 30;
+            public String manufacturer = "Procter & Gamble";
+		    public String madeIn = "China";
+		    public String productionDate = "10th Feb 2024";
+		    public String expiryDate = "10th Feb 2025";
+
+		    public String handleShape = "Straight";
+		    public boolean hasTongueCleaner = true;
+		    public boolean isElectric = false;
+            public String gripMaterial = "Rubber";
+		    public boolean isWaterproof = true;
+            public String recommendedAgeGroup = "All ages";
+		    public boolean hasReplacementIndicator = true;
+            public String bristleColor = "White";
+		    public int bristleCount = 4000;
+
+		    public String packagingType = "Blister pack";
+		    public String packagingColor = "Clear";
+            public String usageInstructions = "Brush teeth twice a day for two minutes";
+		    public boolean isDentistRecommended = true;
+            public String brandAmbassador = "Dentist recommended";
+		    public boolean isEnvironmentallyFriendly = true;
+            public String warrantyPeriod = "1 year";
+		    public boolean isBatteryOperated = false;
+            public boolean hasTravelCase = true;
+
+		    public String brandOwner = "Procter & Gamble";
+		    public String brandOrigin = "United States";
+            public int handleLength = 15;
+		    public boolean isAntiBacterial = true;
+            public String productFormulation = "Manual";
+		    public boolean isRecyclable = true;
+            public boolean hasGumProtection = true;
+		    public boolean isOrthodonticFriendly = true;
+            public String handleTexture = "Textured";
+            public String handleDesign = "Contoured";
+            public String handlePattern = "Grip lines";
+
+		    public boolean isCharcoalInfused = false;
+            public String bristlePattern = "Crisscross";
+            public String bristleHeight = "Medium";
+            public boolean isSensitiveTeethFriendly = true;
+            public boolean isApprovedByADA = true;
+            public String website = "www.oralb.com";
+		    public boolean hasBluetoothConnectivity = false;
+		    public boolean isSmartToothbrush = false;
+		    public int pressureSensorSensitivity = 3;
+		    public String connectivityProtocol = "Bluetooth";
+		    public boolean hasUVSanitizer = false;
+		    public boolean isDisposable = false;
+		   
+		    public boolean hasTimer = true;
+		    public String timerInterval = "30 seconds";
+		    public boolean hasPressureSensor = true;
+		    public boolean isFlexible = true;
+		    public String additionalFeatures = "Travel-friendly, Eco-friendly";
+		    public boolean isRechargeable = true;
+		    public String batteryType = "Lithium-ion";
+		    public boolean hasAppIntegration = false;
+		    public boolean hasSonicTechnology = false;
+		    public int sonicVibrationsPerMinute = 0;
+		    public boolean hasAngledBristles = true;
+		    public String handleGripTexture = "Anti-slip";
+		    public String warrantyDetails = "2 years limited warranty";
+		    
+		    public boolean hasBristleIndicator = true;
+		    public String replacementIndicatorType = "Color-changing";
+		    public String specialEdition = "Limited Edition";
+		    public boolean isBambooHandle = false;
+		    public boolean hasCharcoalInfusion = false;
+		    public String sustainabilityCertification = "FSC Certified";
+		    public String recyclabilityDetails = "Handle is recyclable";
+		    public boolean isAntiPlaque = true;
+		    public String plaqueRemovalTechnology = "Triple Action";
+		    public boolean isADAApproved = true;
+		    public String ADAApprovalDate = "2023-01-01";
+		    public boolean hasTongueScraper = true;
+		    
+		    public boolean isBPAFree = true;
+		    public boolean isPhthalateFree = true;
+		    public boolean isLatexFree = true;
+		    public boolean hasTravelCap = true;
+		    public boolean hasNaturalIngredients = false;
+		    public String naturalIngredientList = "";
+		    public String manufacturingCountry = "China";
+		    public String countryOfOrigin = "United States";
+		    public boolean isClinicallyProven = true;
+		    public String clinicalStudyDetails = "Conducted by Oral-B Research Institute";
+		    public boolean isFDAApproved = true;
+		    
+		    public boolean isCEMarked = true;
+		    public String CEApprovalDate = "2023-02-01";
+		    public String dimensions = "Length: 20cm, Width: 2cm, Height: 1.5cm";
+		    public boolean hasSoftGripHandle = true;
+		    
+	}

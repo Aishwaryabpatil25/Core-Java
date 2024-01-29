@@ -2,98 +2,162 @@ package com.xworkz.datatypes.dailyuser;
 
 import com.xworkz.datatypes.daily.Brush;
 
-public class BrushRunner
-   
-   {
 
 
-		public static void main(String[] args) {
-			
-			Brush brush=new Brush();
-			
-			brush.color = "white";
-			brush. opacity = 0.8f;
-			brush. hardness = 0.5;
-			brush. shape = "straight";
-			brush. pattern ="oval"; 
-			brush. flow = 0.6f;
-			brush. smoothing = true;
-			brush. pressureSensitivity = true;
-			brush. angle = 45.0;
-			brush. spacing = 5;
-			brush. dualBrush = false;
-			brush. scattering = true;
-			brush. rotation = 30.0;
-			brush. mirror = false;
-			brush. tiltSensitivity = true;
-			brush. dynamics = 6;
-			brush. velocity = 2.0f;
-			brush. wetEdges = false;
-			brush. blendMode = 
-			brush. eraserMode = false;
-			brush.textureMapping =1.4f;
-			brush. patternScaling = 1.2f;
-			brush. patternRotation = 60.0;
-			brush. textureOpacity = 0.7f;
-			brush. dynamicResizing = true;
-			brush. colorDynamics = "white";
-			brush. smearTool = false;
-			brush.cloning = true;
-			brush. patternJitter = true;
-			brush. zoom = 1.5100d;
-			brush. highlighting = true;
-			brush. shadowing = true;
-			brush. glowEffect = true;
-			brush. symmetry = false;
-			brush. customBrushes = true;
-			brush. animatedBrushes = true;
-			brush. particleBrushes = true;
-			brush. stampMode = false;
-			brush. dynamicColorBlending = true;
-			brush. layeredBrushes = true;
-			brush. dynamicLighting = true;
-			brush. brushRotationWithDirection ="rigth";
-			brush. dynamicGradients = 3;
-			brush. dynamicBlurring = true;
-			brush. watercolorSimulation = true;
-			brush. inkFlowSimulation = true;
-			brush. magneticBrush = true;
-			brush. dynamicColorMixing = true;
-			brush. patternSmoothing = true;
-			brush. directionalBrush = true;
-			brush. customizableShortcuts = true;
-			brush. realTimePreview = true;
-			brush. preserveTransparency = true;
-			brush.autoStraightening = true;
-			brush. stitchingBrushes = true;
-			brush. patternOverlay = true;
-			brush. colorPaletteIntegration = true;
-			brush. brushShapeDistortion = true;
-			brush. jitterEffects = true;
-			brush. dynamicTapering = true;
-			brush. morphingBrushes = true;
-			brush. dynamicPerspective = true;
-			brush. automaticSmoothing = true;
-			brush. dynamicRotationWithTilt = true;
-			brush. patternDirectionControl = true;
-			brush. fractalBrushes = true;
-			brush.velocityDependentOpacity = true;
-			brush. dynamicNoise = true;
-			brush. dynamicPixelation = true;
-			brush. interactiveBrushPalette = true;
-			brush. dynamicEdgeDetection = true;
-			brush. smartBrushes = true;
-			brush. dynamicZooming = true;
-			brush. animatedTextureBrushes = true;
-			brush. pressureBasedTextureIntensity = true;
-			brush. responsiveAnimationBrushes = true;
-			brush. dynamicDepthOfField = true;
-			brush. intelligentAutoCorrection = true;
-			brush. multiBrushBlending = true;
-			
-			brush.displayAll();
-				
-		}
+
+	public class BrushRunner {
+
+	    public static void main(String[] args) {
+
+	        Brush toothbrush = new Brush();
+
+	        System.out.println(toothbrush.brandName);
+	        System.out.println(toothbrush.productName);
+
+	        System.out.println(toothbrush.bristleType);
+	        System.out.println(toothbrush.handleMaterial);
+
+	        System.out.println(toothbrush.color);
+	        System.out.println(toothbrush.price);
+
+	        System.out.println(toothbrush.manufacturer);
+	        System.out.println(toothbrush.madeIn);
+
+	        System.out.println(toothbrush.productionDate);
+	        System.out.println(toothbrush.expiryDate);
+
+	        System.out.println(toothbrush.handleShape);
+	        System.out.println(toothbrush.hasTongueCleaner);
+
+	        System.out.println(toothbrush.isElectric);
+	        System.out.println(toothbrush.gripMaterial);
+
+	        System.out.println(toothbrush.isWaterproof);
+	        System.out.println(toothbrush.recommendedAgeGroup);
+
+	        System.out.println(toothbrush.hasReplacementIndicator);
+	        System.out.println(toothbrush.bristleColor);
+
+	        System.out.println(toothbrush.bristleCount);
+	        System.out.println(toothbrush.packagingType);
+
+	        System.out.println(toothbrush.packagingColor);
+	        System.out.println(toothbrush.usageInstructions);
+
+	        System.out.println(toothbrush.isDentistRecommended);
+	        System.out.println(toothbrush.brandAmbassador);
+
+	        System.out.println(toothbrush.isEnvironmentallyFriendly);
+	        System.out.println(toothbrush.warrantyPeriod);
+
+	        System.out.println(toothbrush.isBatteryOperated);
+	        System.out.println(toothbrush.hasTravelCase);
+
+	        System.out.println(toothbrush.brandOwner);
+	        System.out.println(toothbrush.brandOrigin);
+
+	        System.out.println(toothbrush.handleLength);
+	        System.out.println(toothbrush.isAntiBacterial);
+
+	        System.out.println(toothbrush.productFormulation);
+	        System.out.println(toothbrush.isRecyclable);
+
+	        System.out.println(toothbrush.hasGumProtection);
+	        System.out.println(toothbrush.isOrthodonticFriendly);
+
+	        System.out.println(toothbrush.handleTexture);
+	        System.out.println(toothbrush.handleDesign);
+
+	        System.out.println(toothbrush.handlePattern);
+	        System.out.println(toothbrush.isCharcoalInfused);
+
+	        System.out.println(toothbrush.bristlePattern);
+	        System.out.println(toothbrush.bristleHeight);
+
+	        System.out.println(toothbrush.isSensitiveTeethFriendly);
+	        System.out.println(toothbrush.isApprovedByADA);
+
+	        System.out.println(toothbrush.website);
+	        
+	        System.out.println(toothbrush.hasBluetoothConnectivity);
+	        
+	        System.out.println(toothbrush.isSmartToothbrush);
+	        
+	        System.out.println(toothbrush.pressureSensorSensitivity);
+	        
+	        System.out.println(toothbrush.connectivityProtocol);
+	        
+	        System.out.println(toothbrush.hasUVSanitizer);
+	        
+	        System.out.println(toothbrush.isDisposable);
+	        
+	        System.out.println(toothbrush.hasTimer);
+	        
+	        System.out.println(toothbrush.timerInterval);
+	        
+	        System.out.println(toothbrush.hasPressureSensor);
+	        
+	        System.out.println(toothbrush.isFlexible);
+	        
+	        System.out.println(toothbrush.additionalFeatures);
+	        
+	        System.out.println(toothbrush.isRechargeable);
+	        
+	        System.out.println(toothbrush.batteryType);
+	        
+	        System.out.println(toothbrush.hasAppIntegration);
+	        
+	        System.out.println(toothbrush.hasSonicTechnology);
+	        
+	        System.out.println(toothbrush.sonicVibrationsPerMinute);
+	        
+	        System.out.println(toothbrush.hasAngledBristles);
+	        
+	        System.out.println(toothbrush.handleGripTexture);
+	        
+	        System.out.println(toothbrush.warrantyDetails);
+	        
+	        System.out.println(toothbrush.hasBristleIndicator);
+	        
+	        System.out.println(toothbrush.replacementIndicatorType);
+	        
+	        System.out.println(toothbrush.specialEdition);
+	        
+	        System.out.println(toothbrush.isBambooHandle);
+	        
+	        System.out.println(toothbrush.hasCharcoalInfusion);
+	        
+	        System.out.println(toothbrush.sustainabilityCertification);
+	        
+	        System.out.println(toothbrush.recyclabilityDetails);
+	        
+	        System.out.println(toothbrush.isAntiPlaque);
+	        
+	        System.out.println(toothbrush.plaqueRemovalTechnology);
+	        
+	        System.out.println(toothbrush.isADAApproved);
+	        
+	        System.out.println(toothbrush.ADAApprovalDate);
+	        
+	        System.out.println(toothbrush.hasTongueScraper);
+	        
+	        System.out.println(toothbrush.isBPAFree);
+	        
+	        System.out.println(toothbrush.isPhthalateFree);
+	        
+	        System.out.println(toothbrush.isLatexFree);
+	        
+	        System.out.println(toothbrush.hasTravelCap);
+	        System.out.println(toothbrush.hasNaturalIngredients);
+	        System.out.println(toothbrush.naturalIngredientList);
+	        System.out.println(toothbrush.manufacturingCountry);
+	        System.out.println(toothbrush.countryOfOrigin);
+	        System.out.println(toothbrush.isClinicallyProven);
+	        System.out.println(toothbrush.clinicalStudyDetails);
+	        System.out.println(toothbrush.isFDAApproved);
+	        System.out.println(toothbrush.isCEMarked);
+	        System.out.println(toothbrush.CEApprovalDate);
+	        System.out.println(toothbrush.dimensions);
+	        System.out.println(toothbrush.hasSoftGripHandle);
+	    }
 	}
-	
-
