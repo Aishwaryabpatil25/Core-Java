@@ -1,9 +1,9 @@
-package com.xworkz.specifiersmethod.inheritance;
+package com.xworkz.specifiersmethod.ineritancerunner;
 
-import com.xworkz.specifiersmethod.ineritancerunner.Mobile;
-import com.xworkz.specifiersmethod.ineritancerunner.RedmiMobile;
-import com.xworkz.specifiersmethod.ineritancerunner.SmartPhone;
-import com.xworkz.specifiersmethod.ineritancerunner.TouchScreenRedmiMobile;
+import com.xworkz.specifiersmethod.inheritance.Mobile;
+import com.xworkz.specifiersmethod.inheritance.RedmiMobile;
+import com.xworkz.specifiersmethod.inheritance.SmartPhone;
+import com.xworkz.specifiersmethod.inheritance.TouchScreenRedmiMobile;
 
 public class MobileRunner
   {
@@ -122,15 +122,15 @@ public class MobileRunner
 		   
 		   TouchScreenRedmiMobile  touchScreenRedmiMobile3 = new SmartPhone();
 		   
-		   touchScreenRedmiMobile2.call();
-		   touchScreenRedmiMobile2.dial();
-		   touchScreenRedmiMobile2.text();
-		   touchScreenRedmiMobile2.version();
-		   touchScreenRedmiMobile2.unlocking();
-		   touchScreenRedmiMobile2.switchOff();
-		   touchScreenRedmiMobile2.clean();
-		   touchScreenRedmiMobile2.reset();
-		   touchScreenRedmiMobile2.screenProtector();
+		   touchScreenRedmiMobile3.call();
+		   touchScreenRedmiMobile3.dial();
+		   touchScreenRedmiMobile3.text();
+		   touchScreenRedmiMobile3.version();
+		   touchScreenRedmiMobile3.unlocking();
+		   touchScreenRedmiMobile3.switchOff();
+		   touchScreenRedmiMobile3.clean();
+		   touchScreenRedmiMobile3.reset();
+		   touchScreenRedmiMobile3.screenProtector();
 		   
 		   System.out.println("__________________________________");
 		   

@@ -1,8 +1,8 @@
-package com.xworkz.specifiersmethod.inheritance;
+package com.xworkz.specifiersmethod.ineritancerunner;
 
-import com.xworkz.specifiersmethod.ineritancerunner.CanonPrinter;
-import com.xworkz.specifiersmethod.ineritancerunner.Printer;
-import com.xworkz.specifiersmethod.ineritancerunner.SmartCanonPrinter;
+import com.xworkz.specifiersmethod.inheritance.CanonPrinter;
+import com.xworkz.specifiersmethod.inheritance.Printer;
+import com.xworkz.specifiersmethod.inheritance.SmartCanonPrinter;
 
 public class Runner
   {
