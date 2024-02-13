@@ -21,6 +21,7 @@ public class Paint {
 		
 		 super.toString();
 		 System.out.println("this is tostring for  Paint");
-		 return "brand:"+brand+"\t"+"color:"+color+"\t"+"price:"+price;
+		 System.out.println("brand:"+brand+"\t"+"color:"+color+"\t"+"price:"+price); 
+		 return super.toString();
 	}
 }

@@ -21,7 +21,8 @@ public class SwitchBoard {
 	@Override
 	public String toString() {
 		System.out.println("tostring for switchboard");
-		return "capacity:"+capacity+"\t"+"volt:"+volt+"\t"+"brand:"+brand;
+		System.out.println("capacity:"+capacity+"\t"+"volt:"+volt+"\t"+"brand:"+brand);
+		return super.toString();
 		
 	}
 }

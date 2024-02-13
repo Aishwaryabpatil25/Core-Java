@@ -23,7 +23,8 @@ public class Ring {
 	public String toString() 
 	{
 		System.out.println("this is tostring for ring");
-		return "type:"+type+"\t"+"price:"+price+"\t"+"stoneType"+stoneType;
+		System.out.println("type:"+type+"\t"+"price:"+price+"\t"+"stoneType"+stoneType);
+		return super.toString();
 		
 	}
 }

@@ -13,6 +13,7 @@ public class Battery {
 	
 	@Override
 	public String toString() {
-		return "capacity:"+capacity+"\t"+"voltage:"+voltage+"\t"+"reusability:"+reusability;
-	}
+		System.out.println("capacity:"+capacity+"\t"+"voltage:"+voltage+"\t"+"reusability:"+reusability); 
+		return super.toString();
+}
 }

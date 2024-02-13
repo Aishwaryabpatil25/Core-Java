@@ -19,7 +19,8 @@ public class Colgate {
 	@Override
 	public String toString() {
 	 System.out.println("tostring for colgate");	
-	 return "packageType:"+packageType+"\t"+"itemForm:"+itemForm+"\t"+"price:"+price;
+	System.out.println("packageType:"+packageType+"\t"+"itemForm:"+itemForm+"\t"+"price:"+price); 
+	return super.toString();
 	
 	}
 }

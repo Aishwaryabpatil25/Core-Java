@@ -26,7 +26,8 @@ public class Tie {
 	@Override
 	public String toString() {
 		
-		return "size:"+size+"\t"+"occassion:"+occassion+"\t"+"material:"+material;
+		System.out.println("size:"+size+"\t"+"occassion:"+occassion+"\t"+"material:"+material);
+		return super.toString();
 		
 	}
 }

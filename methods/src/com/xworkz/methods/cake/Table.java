@@ -19,6 +19,7 @@ public class Table {
 	}
 	@Override
 	public String toString() {
-	   return "width:"+width+"\t"+"height:"+height+"\t"+"shape:"+shape;
+	   System.out.println("width:"+width+"\t"+"height:"+height+"\t"+"shape:"+shape); 
+	   return super.toString();
 	}
 }
