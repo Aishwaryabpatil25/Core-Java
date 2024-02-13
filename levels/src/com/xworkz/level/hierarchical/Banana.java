@@ -1,4 +1,4 @@
-package com.xworkz.inheritanceobject.chocolate;
+package com.xworkz.level.hierarchical;
 
 public class Banana extends Fruit
 {
