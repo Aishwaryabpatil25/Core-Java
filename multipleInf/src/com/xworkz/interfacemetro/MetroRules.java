@@ -13,4 +13,12 @@ public interface MetroRules {
 	boolean cleaniness();
 
 	String getLine();
+	
+	
+//	Different types of interface in that default type is also one
+	
+	default void getTicket()
+	{
+		System.out.println("this is default method for metro");
+	}
 }
