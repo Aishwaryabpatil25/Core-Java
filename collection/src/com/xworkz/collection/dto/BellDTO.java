@@ -1,6 +1,8 @@
 package com.xworkz.collection.dto;
 
-public class BellDTO {
+import java.io.Serializable;
+
+public class BellDTO implements Serializable{
 
 	private  String metalUsed;
 	private  String type;

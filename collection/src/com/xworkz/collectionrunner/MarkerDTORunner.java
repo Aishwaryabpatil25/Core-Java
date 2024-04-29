@@ -35,6 +35,7 @@ public class MarkerDTORunner {
 		mark.add(marker10);
 		
 		
+		
 		Iterator<MarkerDTO> iterator = mark.iterator();
         while (iterator.hasNext()) {
             MarkerDTO m = iterator.next();

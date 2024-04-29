@@ -1,9 +1,11 @@
 package com.xworkz.collection.dto;
 
+import java.io.Serializable;
+
 /**
  * 
  */
-public class HouseDTO {
+public class HouseDTO implements Serializable{
 
 	private int no;
 	private String name;

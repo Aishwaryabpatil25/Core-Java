@@ -1,6 +1,8 @@
 package com.xworkz.collection.dto;
 
-public class BoxDTO {
+import java.io.Serializable;
+
+public class BoxDTO implements Serializable{
 
 	private int area;
 	private String color;
