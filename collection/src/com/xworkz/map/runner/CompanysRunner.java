@@ -37,9 +37,9 @@ public class CompanysRunner
        
 
         
-        Map<CompanysDTO, Set<EmployeeDTO>> map = new HashMap<>();
+        Map<CompanyDTO, Set<EmployeeDTO>> map = new HashMap<>();
 
-        // Create sets of employees for each company
+        
         Set<EmployeeDTO> employeesCompany1 = new HashSet<>();
         employeesCompany1.add(employee1);
         employeesCompany1.add(employee2);
